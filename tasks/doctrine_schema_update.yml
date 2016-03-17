@@ -4,7 +4,7 @@
      doctrine_schema_update: False
   when: deploy.project.php.symfony2.doctrine.schema_update is not defined
 
-- name: Deny update database schema
+- name: Allow update database schema
   set_fact:
      doctrine_schema_update: True
   when: deploy.project.php.symfony2.doctrine.schema_update == True
