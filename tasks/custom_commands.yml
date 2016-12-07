@@ -5,3 +5,4 @@
     chdir: "{{deploy.project.root}}/releases/{{project_deploy_date.stdout}}"
   ignore_errors: yes
   with_items: "{{deploy.project.php.symfony2.custom_commands}}"
+  when: deploy.project.php.symfony2.custom_commands
