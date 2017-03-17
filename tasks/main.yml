@@ -1,6 +1,6 @@
 ---
-- include: dump_assets.yml
-- include: doctrine_schema_update.yml
+#- include: dump_assets.yml
+#- include: doctrine_schema_update.yml
 - include: custom_commands.yml
 - include: clear_controllers.yml
 - include: cache.yml
